@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+/*********************************************************************************************************/
+                                   /*Header section css starts from here*/
+/*********************************************************************************************************/
+.header-section{
+	width: 100%;
+	background:#002333;
+}
+.nav-link{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff!important;
+	margin-left: 25px;
+	transition: .5s;
+}
+.nav-link:hover{
+	color: #00ff84!important;
+}
+.btn-success{
+	padding: 7px 30px!important;
+	background:#00ff84!important;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000!important;
+	border: 0px !important;
+	border-radius: 6px;
+	transition: .5s;
+}
+.btn-success:hover,.btn-success:focus{
+	color: #000!important;
+	opacity: .8;
+	box-shadow: none;
+}
+/*********************************************************************************************************/
+                                   /*Header section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Banner section css starts from here*/
+/*********************************************************************************************************/
+.banner-section{
+	width: 100%;
+	background:#343434;
+}
+.banner-inner{
+	width: 90%;
+	padding-bottom: 110px;
+	margin:0px auto;
+	background: url("../images/bg1.jpg") center top no-repeat;
+	background-size: cover;
+}
+.banner-title{
+	padding: 100px 0px 40px;
+}
+.banner-title h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: .5px;
+	color: #ffffff;
+}
+.banner-title h4{
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #00ff84;
+}
+ p{
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.btn-2{
+	height: 120px;
+	margin: 0px 0px 0px 364px;
+	text-align: center;
+	border-right: 1px solid #989897;
+}
+.btn-2 .btn{
+	padding: 10px 50px;
+	border-color: #ffffff!important;
+	background:transparent!important;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff!important;
+	transition: .6s;
+}
+.btn-2 .btn:hover,.btn-2 .btn:focus{
+	box-shadow: none;
+	background:rgba(255,255,255,0.25)!important;
+}
+.btn-3{
+	margin-right: 400px;
+	text-align: center;
+}
+.btn-3 .btn{
+	padding:11px 30px!important;
+
+}
+/*********************************************************************************************************/
+                                   /*Banner section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Customers section css starts from here*/
+/*********************************************************************************************************/
+.customers{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.customers h4{
+	font-weight: 600;
+}
+/*********************************************************************************************************/
+                                   /*Customers section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Culture section css starts from here*/
+/*********************************************************************************************************/
+.culture{
+	width: 100%;
+	padding: 40px 0px;
+	background:#f5f5f5;
+	text-align: center;
+}
+.culture h2{
+	padding-bottom: 5px;
+	font-size: 40px;
+	font-weight: 500;
+	color: #002333;
+}
+.culture p{
+	padding-bottom: 10px;
+	font-weight: 500;
+	color: #000;
+}
+.culture .btn{
+	padding: 10px 30px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #3722d3!important;
+	background:#ffffff!important;
+	border: 1px solid #3722d3!important;
+	transition: 1s;
+}
+.culture .btn:hover,.culture .btn:focus{
+	box-shadow: none;
+	background:#3722d3!important;
+	color: #ffffff!important;
+}
+/*********************************************************************************************************/
+                                   /*Culture section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Features section css starts from here*/
+/*********************************************************************************************************/
+.features{
+	width: 100%;
+}
+.features .img1{
+	height: 488px;
+	background:url("../images/img1.png") center top no-repeat;
+	background-size: cover;
+}
+.features .img2{
+	height: 488px;
+	background:url("../images/img2.png") center top no-repeat;
+	background-size: cover;
+}
+.features .img3{
+	height: 488px;
+	background:url("../images/img3.png") center top no-repeat;
+	background-size: cover;
+}
+.features .img4{
+	height: 488px;
+	background:url("../images/img4.png") center top no-repeat;
+	background-size: cover;
+}
+.features .img5{
+	height: 488px;
+	background:url("../images/img5.png") center top no-repeat;
+	background-size: cover;
+}
+.feature-title1{
+	margin: 90px 0px 0px 90px;
+	text-align: left;
+}
+.feature-title2{
+	margin: 90px 0px 0px 400px;
+	text-align: left;
+}
+.features h2{
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: 500;
+	color: #002333;
+}
+.features p{
+	font-weight: 500;
+	line-height: 30px;
+	color: #000;
+}
+.features .btn{
+	margin-top: 10px;
+	padding: 8px 25px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #3722d3!important;
+	background:#ffffff!important;
+	border: 1px solid #3722d3!important;
+	transition: 1s;
+}
+.features .btn:hover,.features .btn:focus{
+	box-shadow: none;
+	background:#3722d3!important;
+	color: #ffffff!important;
+}
+/*********************************************************************************************************/
+                                   /*Features section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Creative section css starts from here*/
+/*********************************************************************************************************/
+.creative{
+	width: 100%;
+	padding: 80px 0px;
+	background: #3721d3;
+	text-align: center;
+}
+.creative h3{
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffffff;
+}
+/*********************************************************************************************************/
+                                   /*Creative section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Quote section css starts from here*/
+/*********************************************************************************************************/
+.quote{
+	width: 100%;
+	padding: 60px 0px 20px;
+	text-align: center;
+}
+.quote h4{
+	margin-top: 20px;
+}
+.quote p{
+	margin-top: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #000;
+}
+/*********************************************************************************************************/
+                                   /*Quote section css ends in here*/
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+                                   /*Footer section css starts from here*/
+/*********************************************************************************************************/
+.footer-section{
+	width: 100%;
+	padding: 60px 0px 20px;
+	background:#002333;
+	text-align: center;
+	color: #ffffff;
+}
+.footer-section h1{
+	padding-bottom: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: .5px;
+}
+.footer-section .btn{
+	padding: 10px 40px!important;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 60px;
+}
+.footer-section a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.footer-section h5{
+	font-size: 16px;
+}
+/*********************************************************************************************************/
+                                   /*Footer section css ends in here*/
+/*********************************************************************************************************/
+
